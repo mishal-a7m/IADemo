@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AMap Demo</string>
+    <string name="show_map">Show Map</string>
+    <string name="indooratlas_api_secret">60d41de6-3021-45c5-b439-7f02c2f79296</string>
+    <string name="indooratlas_api_key">pOm54kNIv75KMqbPbM1Ouzz+a78r3qHWQ96E3OpaxLckglS0Cv+n3+e0LfmrcgVzeXo/9aFVcjGwYovheMqi7VerHoXorC3Kn9zo4xok05SqyNJrkMS7NIaBj8s4xw==</string>
+</resources>
