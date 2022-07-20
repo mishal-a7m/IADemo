@@ -190,3 +190,10 @@ public class MainActivity extends AppCompatActivity  {
         System.out.println("FATAL::: "+object);
     }
 }
+
+// from_pos[0] + cur_step*(to_pos[0] - from_pos[0])/40,
+//         from_pos[1] + cur_step*(to_pos[1] - from_pos[1])/40,
+//         from_pos[2] + cur_step*(to_pos[2] - from_pos[2])/40,
+
+//    private double[] from_pos = new double[]{ 8543, 32373, -200 };
+//    private double[] to_pos = new double[]{ 10125, 34942, -200 };
