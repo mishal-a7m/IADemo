@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     // FAKE simulation of user moving
-    private int cur_step = 0;
+
 
 
     private double[] latlngToXY(double lat, double lng){
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity  {
         coordinates[0] = topLeft.x + (bottomRight.x - topLeft.x) * perX  ; //lon
         coordinates[1] = topLeft.y + (bottomRight.y - topLeft.y) * perY  ; //lat
 
-       // log(coordinates[0] + "  " + coordinates[1]);
+       log(coordinates[0] + "  " + coordinates[1]);
         return coordinates;
     }
 
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity  {
                 }
             };
 
-            new Timer().scheduleAtFixedRate(positionTimerTask, 1000, 1000);
+            new Timer().scheduleAtFixedRate(positionTimerTask, 0, 200);
 
             Toast.makeText(this, "Location Simulation started", Toast.LENGTH_SHORT).show();
     }
